@@ -28,76 +28,191 @@
 
     <main class="container mt-4">
         <div class="row">
-            <div class="col-md-3 mb-4">
-                <ul class="list-group">
-                    <li class="list-group-item active">Categories</li>
-                    <li class="list-group-item">Books</li>
-
-                    <li class="list-group-item">Electronics</li>
-                </ul>
-            </div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-4">
-                        <a class="text-decoration-none" href="./product-details.html">
-                            <div class="product-card">
-                                <img src="https://fakeimg.pl/300x200" alt="iPhone 15 Pro Max" class="product-image">
-                                <h5 class="product-title">iPhone 15 Pro Max</h5>
-                                <p class="product-price">$1299</p>
-                                <button class="btn btn-primary">Add to Cart</button>
-                            </div>
-                        </a>
+            <h1>Products</h1>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#phones-tab" data-bs-toggle="tab">Phones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#laptops-tab" data-bs-toggle="tab">Laptops</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gaming-consoles-tab" data-bs-toggle="tab">Gaming Consoles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cameras-tab" data-bs-toggle="tab">Cameras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portable-video-games-tab" data-bs-toggle="tab">Portable Video Games</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="phones-tab">
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <a href="./product-details.html" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="./img/iPhone-16 pro.jpg" class="card-img-top" alt="Apple iPhone 16 Pro"
+                                        height="300">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Apple iPhone 16 Pro</h5>
+                                        <p><strong>Price:</strong> $2100</p>
+                                        <p><strong>Description:</strong> A18 Pro chip, 5G, 256 GB Storage, Dust and
+                                            Water
+                                            Resistant</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <a href="./product-details.html" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="./img/Samsung-Galaxy-S24-Ultra-Violet.webp" class="card-img-top"
+                                        alt="Samsung S24 Ultra" height="300">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Samsung S24 Ultra</h5>
+                                        <p><strong>Price:</strong> $1900</p>
+                                        <p><strong>Description:</strong> Galaxy AI inbuild, Snapdragon 8 Gen3, S-pen
+                                            feature, 256 GB Storage, Dust and Water Resistant</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <a class="text-decoration-none" href="./product-details.html">
-                            <div class="product-card">
-                                <img src="https://fakeimg.pl/300x200" alt="Samsung Galaxy S24 Ultra"
-                                    class="product-image">
-                                <h5 class="product-title">Samsung Galaxy S24 Ultra</h5>
-                                <p class="product-price">$1199</p>
-                                <button class="btn btn-primary">Add to Cart</button>
-                            </div>
-                        </a>
+                </div>
+                <div class="tab-pane" id="laptops-tab">
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <a href="./product-details.html" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="./img/macbook 14.webp" class="card-img-top" alt="Apple MacBook 14 inch"
+                                        height="300">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Apple MacBook 14 inch</h5>
+                                        <p><strong>Price:</strong> $3200</p>
+                                        <p><strong>Description:</strong> M3 Pro Chip, 11-core CPU, 14-core GPU, 18 hours
+                                            battery, Magic Keyboard with Touch ID</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <a href="./product-details.html" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="./img//microsoft surface pro 10.jpg" class="card-img-top"
+                                        alt="Microsoft Surface Pro X (10)" height="300">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Microsoft Surface Pro X (10)</h5>
+                                        <p><strong>Price:</strong> $2900</p>
+                                        <p><strong>Description:</strong> Microsoft Windows OS, 512 GB SSD, 19 hours
+                                            battery,
+                                            Intel CPU</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <a class="text-decoration-none" href="./product-details.html">
-                            <div class="product-card">
-                                <img src="https://fakeimg.pl/300x200" alt="Sony PlayStation 5" class="product-image">
-                                <h5 class="product-title">Sony PlayStation 5</h5>
-                                <p class="product-price">$499</p>
-                                <button class="btn btn-primary">Add to Cart</button>
-                            </div>
-                        </a>
+                </div>
+                <div class="tab-pane" id="gaming-consoles-tab">
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <a href="./product-details.html" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="./img/ps5.webp" class="card-img-top" alt="Sony PS5 Slim" height="300">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sony PS5 Slim</h5>
+                                        <p><strong>Price:</strong> $800</p>
+                                        <p><strong>Description:</strong> Ultra-high speed SSD, Adaptive triggers, 3D
+                                            Audio2
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <a href="./product-details.html" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="./img/xbox series X.jpg" class="card-img-top" alt="Xbox Series X"
+                                        height="300">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Xbox Series X</h5>
+                                        <p><strong>Price:</strong> $800</p>
+                                        <p><strong>Description:</strong> 1 TB HDD, Blu-ray reader, Unmatched 12
+                                            teraflops of
+                                            raw graphic processing power</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <a class="text-decoration-none" href="./product-details.html">
-                            <div class="product-card">
-                                <img src="https://fakeimg.pl/300x200" alt="MacBook Pro 14-inch" class="product-image">
-                                <h5 class="product-title">MacBook Pro 14-inch</h5>
-                                <p class="product-price">$1999</p>
-                                <button class="btn btn-primary">Add to Cart</button>
-                            </div>
-                        </a>
+                </div>
+                <div class="tab-pane" id="cameras-tab">
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <a href="./product-details.html" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="./img/canon r5 eos - camera.webp" class="card-img-top" alt="Canon EOS R5"
+                                        height="300">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Canon EOS R5</h5>
+                                        <p><strong>Price:</strong> $5500</p>
+                                        <p><strong>Description:</strong> Professional Full Frame Mirrorless, People and
+                                            animal AF tracking modes, 8K 30p movies</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <a href="./product-details.html" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="./img/nikon z8 - camera.jpeg" class="card-img-top" alt="Nikon Z8"
+                                        height="300">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nikon Z8</h5>
+                                        <p><strong>Price:</strong> $7500</p>
+                                        <p><strong>Description:</strong> Stacked CMOS sensor with minimal rolling
+                                            shutter
+                                            distortion, Up to 120fps continuous shooting, Up to 8.3K 60p N-RAW video
+                                            recording</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <a class="text-decoration-none" href="./product-details.html">
-                            <div class="product-card">
-                                <img src="https://fakeimg.pl/300x200" alt="Nintendo Switch OLED" class="product-image">
-                                <h5 class="product-title">Nintendo Switch OLED</h5>
-                                <p class="product-price">$349</p>
-                                <button class="btn btn-primary">Add to Cart</button>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a class="text-decoration-none" href="./product-details.html">
-                            <div class="product-card">
-                                <img src="https://fakeimg.pl/300x200" alt="Canon EOS R5" class="product-image">
-                                <h5 class="product-title">Canon EOS R5</h5>
-                                <p class="product-price">$3899</p>
-                                <button class="btn btn-primary">Add to Cart</button>
-                            </div>
-                        </a>
+                </div>
+                <div class="tab-pane" id="portable-video-games-tab">
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <a href="./product-details.html" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="./img/nintendo_switch_oled.jpg" class="card-img-top"
+                                        alt="Nintendo Switch OLED" height="300">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nintendo Switch OLED</h5>
+                                        <p><strong>Price:</strong> $550</p>
+                                        <p><strong>Description:</strong> 7-inch OLED screen, Wired LAN port, 64 GB
+                                            internal
+                                            storage</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <a href="./product-details.html" class="text-decoration-none">
+                                <div class="card">
+                                    <img src="./img/Asus ROG.png" class="card-img-top" alt="Asus ROG Ally Ryzen Z1"
+                                        height="300">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Asus ROG Ally Ryzen Z1</h5>
+                                        <p><strong>Price:</strong> $1050</p>
+                                        <p><strong>Description:</strong> AMD Ryzen™ Z1 Extreme Processor, Built-in Wi-Fi
+                                            6E
+                                            and Bluetooth 5.2 connectivity, Smart Amp speakers with Dolby Atmos, 512 GB
+                                            expandable storage</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
