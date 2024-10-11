@@ -1,0 +1,23 @@
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    margin-top: 10px;
+}
+
+a h5 {
+    color: #000;
+}
+
+a p {
+    color: #333;
+}
